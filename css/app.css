@@ -1,0 +1,11 @@
+body,html {
+  background-color: #e3e3e3;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Georgia", Georgia, serif;
+  font-size: 10vw;
+  vertical-align: middle;
+  margin-top: 24%;
+}
