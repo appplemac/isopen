@@ -1,11 +1,30 @@
-body,html {
+html, body {
+  height: 100%;
+}
+
+body {
   background-color: #e3e3e3;
 }
 
-h1 {
+h1, p {
   text-align: center;
   font-family: "Georgia", Georgia, serif;
+  vertical-align: bottom;
+}
+
+h1 {
   font-size: 10vw;
   vertical-align: middle;
   margin-top: 24%;
+}
+
+p {
+  font-size: 0.8vw;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 }
